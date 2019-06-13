@@ -7,14 +7,9 @@ import { Water } from '../water';
   styleUrls: ['./water.component.css']
 })
 export class WaterComponent implements OnInit {
-
-  water: Water = {
-    id: 1,
-    brand: 'Desert Breeze',
-    flavor: 'Sand',
-    price: 4,
-    pints_left: 124
-  };
+  waters: Water[] = [
+    new Water('Desert Breeze', 'Sand', 4),
+  ];
 
   constructor() { }
 

@@ -1,0 +1,13 @@
+<div>
+  <label>Brand:</label>
+  <input #newBrand>
+</div>
+<div>
+  <label>Flavor:</label>
+  <input #newFlavor>
+</div>
+<div>
+  <label>Price:</label>
+  <input #newPrice><br>
+  <button (click)="submitForm(newFlavor.value, newBrand.value, newPrice.value);">Add</button>
+</div>
