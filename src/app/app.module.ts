@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { WaterComponent } from './water/water.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WaterComponent
   ],
   imports: [
     BrowserModule
